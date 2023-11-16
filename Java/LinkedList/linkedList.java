@@ -40,7 +40,7 @@ class LinkedList{
         }
         
         if(head.data == value){
-            head = null;
+            head = head.next;
             return;
         }
 
