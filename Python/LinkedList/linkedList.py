@@ -73,10 +73,6 @@ class Solution:
         print()
 
 
-        
-    
-    
-# Implementation test
 if __name__ == "__main__":
     sol = Solution()
 
