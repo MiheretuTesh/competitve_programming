@@ -1,12 +1,15 @@
 def bubleSort(arr):
     size = len(arr)
 
-    for i in range(0, size):
-        for j in range(i+1, size):
-            if arr[i] > arr[j]:
-                arr[i], arr[j] = arr[j], arr[i]
-            else: 
-                pass
+    for i in range(size):
+        swapped = False
+        for j in range(0, size-i-1):
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+                swapped = True
+        if swapped == False:
+            break
+         
     return arr
 
 if __name__ == "__main__": 

@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Java.Array.Solution",
+            "projectName": "DSA_80800ef3"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Java.LinkedList.Main",
+            "projectName": "DSA_80800ef3"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "Java.Search.BinarySearch",
+            "projectName": "DSA_80800ef3"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "Java.Search.LinearSearch",
+            "projectName": "DSA_80800ef3"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSorting",
+            "request": "launch",
+            "mainClass": "Java.Sorting.BubbleSorting",
+            "projectName": "DSA_80800ef3"
+        }
+    ]
+}
