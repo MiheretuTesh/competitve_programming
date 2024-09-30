@@ -4,7 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "ValidParenthesis",
+            "request": "launch",
+            "mainClass": "Java.valid_parenthesis.ValidParenthesis",
+            "projectName": "DSA_80800ef3"
+        },
         {
             "type": "java",
             "name": "Current File",
